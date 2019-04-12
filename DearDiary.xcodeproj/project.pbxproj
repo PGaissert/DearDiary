@@ -22,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		FD07C9922256328A00B28313 /* DiaryEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntryViewController.swift; sourceTree = "<group>"; };
+		FD4876852260B6D100B4BCCC /* Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FD878CCE22537FC700D47DA3 /* DearDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DearDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD878CD122537FC700D47DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD878CD322537FC700D47DA3 /* DiaryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		FD878CD022537FC700D47DA3 /* DearDiary */ = {
 			isa = PBXGroup;
 			children = (
+				FD4876852260B6D100B4BCCC /* Swift.playground */,
 				FD878CEA225385F900D47DA3 /* Presentation */,
 				FD878CF22253882400D47DA3 /* Business */,
 				FD878CE9225385EC00D47DA3 /* DataAccess */,
@@ -75,7 +77,6 @@
 				FD878CDB22537FC900D47DA3 /* Assets.xcassets */,
 				FD878CDD22537FC900D47DA3 /* LaunchScreen.storyboard */,
 				FD878CE022537FC900D47DA3 /* Info.plist */,
-				FD878CD822537FC700D47DA3 /* DearDiary.xcdatamodeld */,
 			);
 			path = DearDiary;
 			sourceTree = "<group>";
@@ -110,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				FD878CF0225386AC00D47DA3 /* Quote.swift */,
+				FD878CD822537FC700D47DA3 /* DearDiary.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";

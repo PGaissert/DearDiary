@@ -46,6 +46,7 @@ class DatabasePersistenceAdapter {
         if context.hasChanges {
             do {
                 try context.save()
+                print("Core Data changes saved.")
             } catch {
                 let nserror = error as NSError
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")

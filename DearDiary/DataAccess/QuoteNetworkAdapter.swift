@@ -16,12 +16,18 @@ struct QuoteNetworkAdapter {
 
         let dataTask = session.dataTask(with: url) { (data, response, error) in
             guard let data = data else {
+                print("No data received.")
                 completion(nil)
                 return
             }
 
             let decoder = JSONDecoder()
-            let quote = try? decoder.decode(Quote.self, from: data)
+            guard let quote = try? decoder.decode(Quote.self, from: data) else {
+                print("JSON decoding failed.")
+                completion(nil)
+                return
+            }
+
             completion(quote)
         }
 
