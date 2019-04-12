@@ -16,7 +16,6 @@
 		FD878CDF22537FC900D47DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD878CDD22537FC900D47DA3 /* LaunchScreen.storyboard */; };
 		FD878CEC2253862000D47DA3 /* QuoteNetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD878CEB2253862000D47DA3 /* QuoteNetworkAdapter.swift */; };
 		FD878CEE2253865100D47DA3 /* DatabasePersistenceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD878CED2253865100D47DA3 /* DatabasePersistenceAdapter.swift */; };
-		FD878CF1225386AC00D47DA3 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD878CF0225386AC00D47DA3 /* Quote.swift */; };
 		FD878CF42253883700D47DA3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD878CF32253883700D47DA3 /* Service.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +32,6 @@
 		FD878CE022537FC900D47DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD878CEB2253862000D47DA3 /* QuoteNetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteNetworkAdapter.swift; sourceTree = "<group>"; };
 		FD878CED2253865100D47DA3 /* DatabasePersistenceAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabasePersistenceAdapter.swift; sourceTree = "<group>"; };
-		FD878CF0225386AC00D47DA3 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		FD878CF32253883700D47DA3 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,15 +79,6 @@
 			path = DearDiary;
 			sourceTree = "<group>";
 		};
-		FD878CE6225384B000D47DA3 /* DiaryList */ = {
-			isa = PBXGroup;
-			children = (
-				FD878CD322537FC700D47DA3 /* DiaryListViewController.swift */,
-				FD07C9922256328A00B28313 /* DiaryEntryViewController.swift */,
-			);
-			path = DiaryList;
-			sourceTree = "<group>";
-		};
 		FD878CE9225385EC00D47DA3 /* DataAccess */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +91,8 @@
 		FD878CEA225385F900D47DA3 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				FD878CE6225384B000D47DA3 /* DiaryList */,
+				FD878CD322537FC700D47DA3 /* DiaryListViewController.swift */,
+				FD07C9922256328A00B28313 /* DiaryEntryViewController.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -110,7 +100,6 @@
 		FD878CEF225386A000D47DA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FD878CF0225386AC00D47DA3 /* Quote.swift */,
 				FD878CD822537FC700D47DA3 /* DearDiary.xcdatamodeld */,
 			);
 			path = Model;
@@ -201,7 +190,6 @@
 				FD07C9932256328A00B28313 /* DiaryEntryViewController.swift in Sources */,
 				FD878CD222537FC700D47DA3 /* AppDelegate.swift in Sources */,
 				FD878CEE2253865100D47DA3 /* DatabasePersistenceAdapter.swift in Sources */,
-				FD878CF1225386AC00D47DA3 /* Quote.swift in Sources */,
 				FD878CDA22537FC700D47DA3 /* DearDiary.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
