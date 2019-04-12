@@ -15,18 +15,14 @@ class DatabasePersistenceAdapter {
     }
 
     func addDiaryEntry(title: String, content: String) {
-        let entry = DiaryEntry(context: context)
-        entry.date = Date()
-        entry.title = title
-        entry.content = content
+        // New DiaryEntry: set date, title, content
     }
 
-    func diaryEntries() -> [DiaryEntry]? {
-        let request: NSFetchRequest<DiaryEntry> = DiaryEntry.fetchRequest()
-        request.sortDescriptors = [NSSortDescriptor(key: "date", ascending: false)]
-        let diaryEntries = try? context.fetch(request)
-        return diaryEntries
-    }
+    /*
+     func diaryEntries() -> [DiaryEntry]?
+     let request: NSFetchRequest<DiaryEntry>
+     NSSortDescriptor(key: "date", ascending: false)
+     */
 
     // MARK: - Core Data stack
 
